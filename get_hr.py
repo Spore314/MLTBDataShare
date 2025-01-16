@@ -5,7 +5,7 @@ import random
 from tqdm import tqdm
   
 def connect_to_database(): 
-    client = MongoClient("mongodb://chenzj:chenzhongjia2024@10.9.19.202:27017/?authSource=tightbinding&authMechanism=SCRAM-SHA-256&directConnection=true")
+    client = MongoClient("mongodb://")
     db = client.tightbinding  
     fs = gridfs.GridFS(db, collection="tb_matrix") 
     fb = gridfs.GridFS(db, collection="tb_inputs") 
