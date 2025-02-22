@@ -5,7 +5,7 @@
 
 2. **Get Data**:  
    Run `python get_hr.py` to fetch data with IDs.  
-   Or Run `python get_calfiles.py` to fetch more calculation files with IDs.
+   Or run `python get_calfiles.py` to fetch more calculation files with IDs.
 
 4. **Create NPZ File**:  
    Execute `python MLTB_data.py` to generate `MLTB_data.npz`.
